@@ -158,6 +158,9 @@ return [
 
         YuanChao\Editor\EndaEditorServiceProvider::class,
         Collective\Html\HtmlServiceProvider::class,
+        MathiasGrimm\LaravelDotEnvGen\DotEnvGenServiceProvider::class,
+        Barryvdh\Debugbar\ServiceProvider::class,
+        Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
     ],
 
     /*
@@ -207,6 +210,7 @@ return [
         'EndaEditor' => YuanChao\Editor\Facade\EndaEditorFacade::class,
         'Form' => Collective\Html\FormFacade::class,
         'Html' => Collective\Html\HtmlFacade::class,
+        'Debugbar' => Barryvdh\Debugbar\Facade::class,
     ],
 
 ];

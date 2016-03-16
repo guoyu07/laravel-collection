@@ -15,14 +15,16 @@
         "doctrine/dbal": "^2.5",
         "barryvdh/laravel-debugbar": "^2.2",
         "intervention/imagecache": "^2.3",
-        "appzcoder/crud-generator": "^1.0"
+        "appzcoder/crud-generator": "^1.0",
+        "laracasts/testdummy": "^2.3"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
         "mockery/mockery": "0.9.*",
         "phpunit/phpunit": "~4.0",
         "symfony/css-selector": "2.8.*|3.0.*",
-        "symfony/dom-crawler": "2.8.*|3.0.*"
+        "symfony/dom-crawler": "2.8.*|3.0.*",
+        "laracasts/generators": "^1.1"
     },
     "autoload": {
         "classmap": [

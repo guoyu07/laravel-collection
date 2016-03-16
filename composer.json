@@ -8,13 +8,14 @@
         "php": ">=5.5.9",
         "laravel/framework": "5.2.*",
         "yuanchao/laravel-5-markdown-editor": "dev-master",
-        "laravelcollective/html": "5.2.*",
+        "laravelcollective/html": "^5.2",
         "mathiasgrimm/laravel-dot-env-gen": "dev-master",
         "intervention/image": "^2.3",
         "barryvdh/laravel-ide-helper": "^2.1",
         "doctrine/dbal": "^2.5",
         "barryvdh/laravel-debugbar": "^2.2",
-        "intervention/imagecache": "^2.3"
+        "intervention/imagecache": "^2.3",
+        "appzcoder/crud-generator": "^1.0"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

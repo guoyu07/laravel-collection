@@ -156,6 +156,7 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        Appzcoder\CrudGenerator\CrudGeneratorServiceProvider::class,
         YuanChao\Editor\EndaEditorServiceProvider::class,
         Collective\Html\HtmlServiceProvider::class,
         MathiasGrimm\LaravelDotEnvGen\DotEnvGenServiceProvider::class,

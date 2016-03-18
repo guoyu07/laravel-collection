@@ -156,9 +156,11 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
-        Appzcoder\CrudGenerator\CrudGeneratorServiceProvider::class,
         YuanChao\Editor\EndaEditorServiceProvider::class,
+        Appzcoder\CrudGenerator\CrudGeneratorServiceProvider::class,
         Collective\Html\HtmlServiceProvider::class,
+        Laracasts\Flash\FlashServiceProvider::class,
+        Mitul\Generator\GeneratorServiceProvider::class,
         MathiasGrimm\LaravelDotEnvGen\DotEnvGenServiceProvider::class,
         Barryvdh\Debugbar\ServiceProvider::class,
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
@@ -211,6 +213,7 @@ return [
         'EndaEditor' => YuanChao\Editor\Facade\EndaEditorFacade::class,
         'Form' => Collective\Html\FormFacade::class,
         'Html' => Collective\Html\HtmlFacade::class,
+        'Flash' => Laracasts\Flash\Flash::class,
         'Debugbar' => Barryvdh\Debugbar\Facade::class,
     ],
 

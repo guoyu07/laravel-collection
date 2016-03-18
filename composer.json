@@ -16,7 +16,10 @@
         "barryvdh/laravel-debugbar": "^2.2",
         "intervention/imagecache": "^2.3",
         "appzcoder/crud-generator": "^1.0",
-        "laracasts/testdummy": "^2.3"
+        "laracasts/testdummy": "^2.3",
+        "laracasts/flash": "^2.0",
+        "bosnadev/repositories": "dev-master",
+        "mitulgolakiya/laravel-api-generator": "dev-master"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
